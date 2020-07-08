@@ -1,0 +1,38 @@
+img:first-of-type {
+    width: 300px;
+    height: 250px;
+}
+table td.td2 {
+    padding: 30px;
+}
+table td.starsToLeft {
+    padding-left: 100px;
+}
+table.leftFloater {
+    padding-left: 15px;
+    margin-left: 25px;
+    border-left: 2px solid bisque;
+}
+table.skills {
+    float: left;
+    display: block;
+}
+table.skills tr {
+    background-color: rgba(66, 231, 129, 0.144);
+} table.skills tr:hover {
+    background-color: rgba(134, 55, 24, 0.568);
+    border: 3px solid #2980b9;
+    outline: none;
+    height: 25px;
+}
+body {
+    background: #F0C27B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4B1248, #F0C27B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4B1248, #F0C27B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+a {
+    display: contents;
+}
+div {
+    display: block;
+}
